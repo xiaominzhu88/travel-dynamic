@@ -1,0 +1,149 @@
+body {
+  background-image: url("greek.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  font-size: 18px;
+  margin:0;
+  padding:0;
+}
+
+/*---------------------------slide images----------------------*/
+.slide {
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 30px;
+}
+
+/*---------------------------Header------------------------------*/
+h1 {
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  color: rgb(233, 229, 224);
+  text-shadow: 2px 2px 2px rgb(19, 18, 18);
+  margin-top: 40px;
+  text-decoration: underline;
+}
+
+span {
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 2em;
+  color: rgb(236, 245, 236);
+  text-align: center;
+  border-radius: 20px;
+  text-shadow: 2px 2px 2px rgb(10, 10, 10);
+}
+
+/*---------------------------Enter Button-------------------*/
+
+.enter {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#enter {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(13, 14, 13);
+  cursor: pointer;
+  font-family: cursive;
+  font-size: 1em;
+  color: rgb(245, 247, 239);
+  box-shadow: 4px 2px 2px rgb(143, 129, 6);
+  margin-top: 10px;
+  
+}
+
+/*---------------------------Select Form----------------------*/
+
+/*---------------------------Select Form----------------------*/
+
+form {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#selection {
+  width: 10rem;
+  box-shadow: 2px 2px 3px rgb(75, 8, 92);
+}
+
+/*---------------------------Text Hidden----------------------*/
+
+p {
+  line-height: 1.5rem;
+  text-align: center;
+  color: rgb(5, 5, 5);
+}
+
+
+a {
+  color: rgb(153, 6, 146);
+  padding: 40px;
+  font-family: cursive;
+}
+
+a:hover {
+  color: rgb(18, 18, 238);
+  text-decoration-line: none;
+  font-style: italic;
+}
+
+/*---------------------------Content ---------------------------*/
+.main-kaffee {
+  display: inline-flex;
+  flex-direction: column;
+}
+li {
+  list-style: none;
+  text-align: center;
+}
+
+
+img {
+  margin: 10px auto;
+  text-align: center;
+}
+
+button {
+  width: 7rem;
+  height: 1.5rem;
+  border-radius: 10px;
+  background-color: rgb(27, 54, 11);
+  cursor: pointer;
+  font-family: cursive;
+  font-size: 0.8rem;
+  color: white;
+  box-shadow: 4px 2px 2px rgb(143, 129, 6);
+  margin-top: 10px;
+}
+button:hover {
+  background-color: mintcream;
+  color: blue;
+}
+
+a,
+button {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/*---------------------------Footer----------------------------*/
+
+footer {
+  background-color: rgb(15, 15, 14);
+}
+footer p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  height: 30px;
+  padding-top: 5px;
+  color: #fff;
+}
